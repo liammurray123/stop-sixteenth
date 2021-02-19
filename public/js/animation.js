@@ -1,21 +1,21 @@
 // Homepage Animations
-var homeTL = gsap.timeline();
-homeTL.set("section#header div#title a#explorebutton", {bottom: 0});
-homeTL.from("section#header div#title h1", {duration: 2, right: +5, opacity: 0});
-homeTL.from("section#header div#title a#explorebutton", {duration: 2, bottom: +5, opacity: 0});
-homeTL.to("section#header div#title", {scrollTrigger: {trigger: "section#header", start: "top top", end: "bottom top", scrub: true, markers: false, }, duration: 2, clipPath:"polygon(60% 0, 60% 0, 40% 100%, 40% 100%)"});
+// var homeTL = gsap.timeline();
+// homeTL.set("section#header div#title a#explorebutton", {bottom: 0});
+// homeTL.from("section#header div#title h1", {duration: 2, right: +5, opacity: 0});
+// homeTL.from("section#header div#title a#explorebutton", {duration: 2, bottom: +5, opacity: 0});
+// homeTL.to("section#header div#title", {scrollTrigger: {trigger: "section#header", start: "top top", end: "bottom top", scrub: true, markers: false, }, duration: 2, clipPath:"polygon(60% 0, 60% 0, 40% 100%, 40% 100%)"});
 
-const exploreButton = document.getElementById('explorebutton');
+// const exploreButton = document.getElementById('explorebutton');
 
-exploreButton.onclick = () => {
-  gsap.to(window, {duration: 2, scrollTo:"#newsection"});
-};
+// exploreButton.onclick = () => {
+//   gsap.to(window, {duration: 2, scrollTo:"#newsection"});
+// };
 
 
-const topButton = document.getElementById('backtotop');
-topButton.onclick = () => {
-  gsap.to(window, {duration: 2, scrollTo:"#header"});
-};
+// const topButton = document.getElementById('backtotop');
+// topButton.onclick = () => {
+//   gsap.to(window, {duration: 2, scrollTo:"#header"});
+// };
 // DOM Elements
 
 const darkButton = document.getElementById('darkbutton');

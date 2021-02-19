@@ -5,7 +5,7 @@ nav {
   
   nav a {
     font-family: var(--BodyFont);
-    float: left;
+    float: right;
     display: block;
     color: var(--TextColor);
     text-align: center;
@@ -15,7 +15,7 @@ nav {
   }
   
   nav a:hover {
-    border-bottom: 2px solid white;
+/*     border-bottom: 2px solid green; */
   
   }
   

@@ -1,5 +1,10 @@
 /* this file is loaded by index.html and styles the page */
 
+@font-face {
+  src: url(/fonts/SafariForSpotify_Circular.otf);
+  font-family: "BrushFont";
+}
+
 .light {
 --TextColor: #1D3557;
 --BackgroundColor: #F1FAEE;
@@ -12,6 +17,13 @@
   --BackgroundColor: #1D3557;
   --PowderBlue: #A8DADC;
   --RedAccent: #E63946;
+}
+
+* {
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: background-color 2s, background 2s;
 }
 
 body {
