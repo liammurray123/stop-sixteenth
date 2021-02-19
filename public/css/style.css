@@ -1,8 +1,14 @@
 /* this file is loaded by index.html and styles the page */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 @font-face {
   src: url(/fonts/Circular.otf);
-  font-family: "BrushFont";
+  font-family: "Circular";
+}
+
+:root {
+  --HeaderFont: "Circular";
+  --BodyFont: 'Roboto', sans-serif;
 }
 
 .light {
@@ -27,7 +33,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: var(--BodyFont);
   line-height: 1.5em;
   background-color: var(--BackgroundColor);
   color: var(--TextColor);
