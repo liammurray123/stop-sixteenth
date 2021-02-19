@@ -1,0 +1,62 @@
+
+nav {
+    overflow: hidden;
+  }
+  
+  nav a {
+    font-family: var(--BodyFont);
+    float: left;
+    display: block;
+    color: var(--TextColor);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid white;
+  
+  }
+  
+  nav #logo {
+    height: 5vh;
+    margin: 14px 16px;
+    width: auto;
+    float: right;
+    display: block;
+  }
+  
+  nav .icon {
+    display: none;
+    float: right;
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav a:not(:first-child) {
+      display: none;
+    }
+  
+    nav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav.responsive {
+      position: relative;
+    }
+  
+    nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  
+    nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }

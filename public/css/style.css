@@ -1,0 +1,22 @@
+/* this file is loaded by index.html and styles the page */
+
+.light {
+--TextColor: #1D3557;
+--BackgroundColor: #F1FAEE;
+--PowderBlue: #A8DADC;
+--RedAccent: #E63946;
+}
+
+.dark {
+  --TextColor: #F1FAEE;
+  --BackgroundColor: #1D3557;
+  --PowderBlue: #A8DADC;
+  --RedAccent: #E63946;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5em;
+  background-color: var(--BackgroundColor);
+  color: var(--TextColor);
+}
