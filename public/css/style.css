@@ -38,3 +38,13 @@ body {
   background-color: var(--BackgroundColor);
   color: var(--TextColor);
 }
+
+h1#intro-text {
+  font-family: var(--HeaderFont);
+  color: var(--TextColor);
+  font-size: 20rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 50%);
+}
